@@ -13,7 +13,11 @@
                         <group width="1" height="1" alignment="left" layout="vertical" id="18h-m7-WFk">
                             <items>
                                 <label width="1" alignment="left" text="Cool" id="d7t-y8-2Pe"/>
-                                <slider width="1" alignment="left" value="1" maximum="3" steps="3" id="saO-Ng-XHA"/>
+                                <slider width="1" alignment="left" continuous="YES" value="100" minimum="20" maximum="100" steps="10" id="saO-Ng-XHA">
+                                    <connections>
+                                        <action selector="alphaChanged:" destination="AgC-eL-Hgc" id="rRv-vo-0gN"/>
+                                    </connections>
+                                </slider>
                                 <switch width="1" alignment="left" value="YES" title="Red/Blue" id="BAv-sD-B4Y">
                                     <connections>
                                         <action selector="switchPressed:" destination="AgC-eL-Hgc" id="mZU-zT-0gV"/>
@@ -30,7 +34,6 @@
                     <connections>
                         <outlet property="group" destination="18h-m7-WFk" id="7cb-Go-WDf"/>
                         <outlet property="label" destination="d7t-y8-2Pe" id="E9A-Os-d2N"/>
-                        <outlet property="slider" destination="saO-Ng-XHA" id="c6r-bY-Zmz"/>
                     </connections>
                 </controller>
             </objects>

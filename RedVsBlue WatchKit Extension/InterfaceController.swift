@@ -14,13 +14,13 @@ class InterfaceController: WKInterfaceController {
   
   @IBOutlet weak var group: WKInterfaceGroup!
   @IBOutlet weak var label: WKInterfaceLabel!
-  @IBOutlet weak var slider: WKInterfaceSlider!
+  var state = true
   
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
     // Configure interface objects here.
-    group.setBackgroundColor(UIColor.blueColor())
+    toggleElements()
   }
   
   override func willActivate() {
@@ -33,10 +33,26 @@ class InterfaceController: WKInterfaceController {
     super.didDeactivate()
   }
   
-  @IBAction func switchPressed(value: Bool) {
-    
+  func toggleElements() {
+    if state {
+      
+    } else {
+      
+    }
+    state = !state
   }
+  
+  @IBAction func alphaChanged(value: Float) {
+    println(value/100)
+    group.setAlpha(CGFloat(value/100))
+  }
+  
+  @IBAction func switchPressed(value: Bool) {
+    toggleElements()
+  }
+  
   @IBAction func resetPressed() {
-    
+    state = true
+    toggleElements()
   }
 }
