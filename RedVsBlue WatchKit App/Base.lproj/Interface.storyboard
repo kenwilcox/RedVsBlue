@@ -12,7 +12,7 @@
                     <items>
                         <group width="1" height="1" alignment="left" layout="vertical" id="18h-m7-WFk">
                             <items>
-                                <label width="1" alignment="left" text="Cool" id="d7t-y8-2Pe"/>
+                                <label width="1" alignment="center" text="Cool" textAlignment="center" id="d7t-y8-2Pe"/>
                                 <slider width="1" alignment="left" continuous="YES" value="100" minimum="20" maximum="100" steps="10" id="saO-Ng-XHA">
                                     <connections>
                                         <action selector="alphaChanged:" destination="AgC-eL-Hgc" id="rRv-vo-0gN"/>

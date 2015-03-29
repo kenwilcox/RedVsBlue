@@ -35,9 +35,11 @@ class InterfaceController: WKInterfaceController {
   
   func toggleElements() {
     if state {
-      
+      group.setBackgroundColor(UIColor.blueColor())
+      label.setText("Cool")
     } else {
-      
+      group.setBackgroundColor(UIColor.redColor())
+      label.setText("Hot")
     }
     state = !state
   }
