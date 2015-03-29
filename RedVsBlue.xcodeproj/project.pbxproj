@@ -13,6 +13,12 @@
 		BEF5C5231AC79F4E004DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5221AC79F4E004DCA40 /* Images.xcassets */; };
 		BEF5C5261AC79F4E004DCA40 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5241AC79F4E004DCA40 /* LaunchScreen.xib */; };
 		BEF5C5321AC79F4E004DCA40 /* RedVsBlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5C5311AC79F4E004DCA40 /* RedVsBlueTests.swift */; };
+		BEF5C5441AC79F58004DCA40 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF5C5431AC79F58004DCA40 /* InterfaceController.swift */; };
+		BEF5C5461AC79F58004DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5451AC79F58004DCA40 /* Images.xcassets */; };
+		BEF5C54A1AC79F58004DCA40 /* RedVsBlue WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5491AC79F58004DCA40 /* RedVsBlue WatchKit App.app */; };
+		BEF5C5521AC79F58004DCA40 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5501AC79F58004DCA40 /* Interface.storyboard */; };
+		BEF5C5541AC79F58004DCA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF5C5531AC79F58004DCA40 /* Images.xcassets */; };
+		BEF5C5571AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BEF5C53F1AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +29,35 @@
 			remoteGlobalIDString = BEF5C5151AC79F4E004DCA40;
 			remoteInfo = RedVsBlue;
 		};
+		BEF5C54B1AC79F58004DCA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF5C50E1AC79F4E004DCA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF5C5481AC79F58004DCA40;
+			remoteInfo = "RedVsBlue WatchKit App";
+		};
+		BEF5C5551AC79F58004DCA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF5C50E1AC79F4E004DCA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF5C53E1AC79F58004DCA40;
+			remoteInfo = "RedVsBlue WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEF5C55E1AC79F58004DCA40 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BEF5C5571AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BEF5C5161AC79F4E004DCA40 /* RedVsBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedVsBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +70,14 @@
 		BEF5C52B1AC79F4E004DCA40 /* RedVsBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedVsBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF5C5301AC79F4E004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF5C5311AC79F4E004DCA40 /* RedVsBlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedVsBlueTests.swift; sourceTree = "<group>"; };
+		BEF5C53F1AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RedVsBlue WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF5C5421AC79F58004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF5C5431AC79F58004DCA40 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BEF5C5451AC79F58004DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEF5C5491AC79F58004DCA40 /* RedVsBlue WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RedVsBlue WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF5C54F1AC79F58004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF5C5511AC79F58004DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		BEF5C5531AC79F58004DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +95,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF5C53C1AC79F58004DCA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +110,8 @@
 			children = (
 				BEF5C5181AC79F4E004DCA40 /* RedVsBlue */,
 				BEF5C52E1AC79F4E004DCA40 /* RedVsBlueTests */,
+				BEF5C5401AC79F58004DCA40 /* RedVsBlue WatchKit Extension */,
+				BEF5C54D1AC79F58004DCA40 /* RedVsBlue WatchKit App */,
 				BEF5C5171AC79F4E004DCA40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +121,8 @@
 			children = (
 				BEF5C5161AC79F4E004DCA40 /* RedVsBlue.app */,
 				BEF5C52B1AC79F4E004DCA40 /* RedVsBlueTests.xctest */,
+				BEF5C53F1AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex */,
+				BEF5C5491AC79F58004DCA40 /* RedVsBlue WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +165,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BEF5C5401AC79F58004DCA40 /* RedVsBlue WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5C5431AC79F58004DCA40 /* InterfaceController.swift */,
+				BEF5C5451AC79F58004DCA40 /* Images.xcassets */,
+				BEF5C5411AC79F58004DCA40 /* Supporting Files */,
+			);
+			path = "RedVsBlue WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		BEF5C5411AC79F58004DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5C5421AC79F58004DCA40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEF5C54D1AC79F58004DCA40 /* RedVsBlue WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5C5501AC79F58004DCA40 /* Interface.storyboard */,
+				BEF5C5531AC79F58004DCA40 /* Images.xcassets */,
+				BEF5C54E1AC79F58004DCA40 /* Supporting Files */,
+			);
+			path = "RedVsBlue WatchKit App";
+			sourceTree = "<group>";
+		};
+		BEF5C54E1AC79F58004DCA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEF5C54F1AC79F58004DCA40 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +211,12 @@
 				BEF5C5121AC79F4E004DCA40 /* Sources */,
 				BEF5C5131AC79F4E004DCA40 /* Frameworks */,
 				BEF5C5141AC79F4E004DCA40 /* Resources */,
+				BEF5C55E1AC79F58004DCA40 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BEF5C5561AC79F58004DCA40 /* PBXTargetDependency */,
 			);
 			name = RedVsBlue;
 			productName = RedVsBlue;
@@ -150,6 +241,39 @@
 			productReference = BEF5C52B1AC79F4E004DCA40 /* RedVsBlueTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BEF5C53E1AC79F58004DCA40 /* RedVsBlue WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF5C55B1AC79F58004DCA40 /* Build configuration list for PBXNativeTarget "RedVsBlue WatchKit Extension" */;
+			buildPhases = (
+				BEF5C53B1AC79F58004DCA40 /* Sources */,
+				BEF5C53C1AC79F58004DCA40 /* Frameworks */,
+				BEF5C53D1AC79F58004DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEF5C54C1AC79F58004DCA40 /* PBXTargetDependency */,
+			);
+			name = "RedVsBlue WatchKit Extension";
+			productName = "RedVsBlue WatchKit Extension";
+			productReference = BEF5C53F1AC79F58004DCA40 /* RedVsBlue WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		BEF5C5481AC79F58004DCA40 /* RedVsBlue WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF5C5581AC79F58004DCA40 /* Build configuration list for PBXNativeTarget "RedVsBlue WatchKit App" */;
+			buildPhases = (
+				BEF5C5471AC79F58004DCA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RedVsBlue WatchKit App";
+			productName = "RedVsBlue WatchKit App";
+			productReference = BEF5C5491AC79F58004DCA40 /* RedVsBlue WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +289,12 @@
 					BEF5C52A1AC79F4E004DCA40 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = BEF5C5151AC79F4E004DCA40;
+					};
+					BEF5C53E1AC79F58004DCA40 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BEF5C5481AC79F58004DCA40 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +313,8 @@
 			targets = (
 				BEF5C5151AC79F4E004DCA40 /* RedVsBlue */,
 				BEF5C52A1AC79F4E004DCA40 /* RedVsBlueTests */,
+				BEF5C53E1AC79F58004DCA40 /* RedVsBlue WatchKit Extension */,
+				BEF5C5481AC79F58004DCA40 /* RedVsBlue WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +334,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF5C53D1AC79F58004DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF5C5461AC79F58004DCA40 /* Images.xcassets in Resources */,
+				BEF5C54A1AC79F58004DCA40 /* RedVsBlue WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF5C5471AC79F58004DCA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF5C5521AC79F58004DCA40 /* Interface.storyboard in Resources */,
+				BEF5C5541AC79F58004DCA40 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +375,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF5C53B1AC79F58004DCA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF5C5441AC79F58004DCA40 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +390,16 @@
 			isa = PBXTargetDependency;
 			target = BEF5C5151AC79F4E004DCA40 /* RedVsBlue */;
 			targetProxy = BEF5C52C1AC79F4E004DCA40 /* PBXContainerItemProxy */;
+		};
+		BEF5C54C1AC79F58004DCA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF5C5481AC79F58004DCA40 /* RedVsBlue WatchKit App */;
+			targetProxy = BEF5C54B1AC79F58004DCA40 /* PBXContainerItemProxy */;
+		};
+		BEF5C5561AC79F58004DCA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEF5C53E1AC79F58004DCA40 /* RedVsBlue WatchKit Extension */;
+			targetProxy = BEF5C5551AC79F58004DCA40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +418,14 @@
 				BEF5C5251AC79F4E004DCA40 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		BEF5C5501AC79F58004DCA40 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF5C5511AC79F58004DCA40 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RedVsBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RedVsBlue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +566,60 @@
 			};
 			name = Release;
 		};
+		BEF5C5591AC79F58004DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RedVsBlue_WatchKit_Extension;
+				INFOPLIST_FILE = "RedVsBlue WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		BEF5C55A1AC79F58004DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = RedVsBlue_WatchKit_Extension;
+				INFOPLIST_FILE = "RedVsBlue WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		BEF5C55C1AC79F58004DCA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RedVsBlue WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BEF5C55D1AC79F58004DCA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RedVsBlue WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +645,22 @@
 			buildConfigurations = (
 				BEF5C5391AC79F4E004DCA40 /* Debug */,
 				BEF5C53A1AC79F4E004DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF5C5581AC79F58004DCA40 /* Build configuration list for PBXNativeTarget "RedVsBlue WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF5C5591AC79F58004DCA40 /* Debug */,
+				BEF5C55A1AC79F58004DCA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEF5C55B1AC79F58004DCA40 /* Build configuration list for PBXNativeTarget "RedVsBlue WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF5C55C1AC79F58004DCA40 /* Debug */,
+				BEF5C55D1AC79F58004DCA40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
