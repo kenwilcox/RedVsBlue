@@ -14,6 +14,7 @@ class InterfaceController: WKInterfaceController {
   
   @IBOutlet weak var group: WKInterfaceGroup!
   @IBOutlet weak var label: WKInterfaceLabel!
+  @IBOutlet weak var slider: WKInterfaceSlider!
   var state = true
   
   override func awakeWithContext(context: AnyObject?) {
@@ -56,5 +57,7 @@ class InterfaceController: WKInterfaceController {
   @IBAction func resetPressed() {
     state = true
     toggleElements()
+    // Weird, seting the value does not fire the value changed?
+    slider.setValue(100)
   }
 }

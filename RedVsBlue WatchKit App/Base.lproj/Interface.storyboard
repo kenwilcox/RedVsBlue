@@ -34,6 +34,7 @@
                     <connections>
                         <outlet property="group" destination="18h-m7-WFk" id="7cb-Go-WDf"/>
                         <outlet property="label" destination="d7t-y8-2Pe" id="E9A-Os-d2N"/>
+                        <outlet property="slider" destination="saO-Ng-XHA" id="E7Z-Bd-2Ch"/>
                     </connections>
                 </controller>
             </objects>
