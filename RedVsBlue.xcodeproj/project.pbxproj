@@ -78,6 +78,8 @@
 		BEF5C54F1AC79F58004DCA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEF5C5511AC79F58004DCA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		BEF5C5531AC79F58004DCA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEF5C55F1AC7A005004DCA40 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		BEF5C5601AC7A005004DCA40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,8 @@
 		BEF5C50D1AC79F4E004DCA40 = {
 			isa = PBXGroup;
 			children = (
+				BEF5C55F1AC7A005004DCA40 /* LICENSE.md */,
+				BEF5C5601AC7A005004DCA40 /* README.md */,
 				BEF5C5181AC79F4E004DCA40 /* RedVsBlue */,
 				BEF5C52E1AC79F4E004DCA40 /* RedVsBlueTests */,
 				BEF5C5401AC79F58004DCA40 /* RedVsBlue WatchKit Extension */,
