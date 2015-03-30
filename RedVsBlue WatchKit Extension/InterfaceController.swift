@@ -59,5 +59,7 @@ class InterfaceController: WKInterfaceController {
     toggleElements()
     // Weird, seting the value does not fire the value changed?
     slider.setValue(100)
+    println("setting alpha")
+    group.setAlpha(1.0)
   }
 }
